@@ -32,7 +32,7 @@ import com.pineapple.repositories.EmployeeRepository;
 import com.pineapple.repositories.RoleRepository;
 import com.pineapple.security.services.UserDetailsImpl;
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+
 @RestController
 @RequestMapping("/api/authentication")
 public class AuthenticationController {
